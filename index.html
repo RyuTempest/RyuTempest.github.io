@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ray Avila — Tech Enthusiast & IoT Developer</title>
+  <meta name="description" content="Computer Technology Graduate specializing in IoT, embedded systems, and front-end development. Building innovative solutions that bridge hardware and software.">
+  <meta name="author" content="Ray Avila">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ray Avila — Tech Enthusiast & IoT and Frontend Developer">
+  <meta property="og:description" content="Computer Technology Graduate specializing in IoT, embedded systems, and front-end development">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ryutempest.github.io">
+  <meta property="og:image" content="https://ryutempest.github.io/img/og-image.jpg">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ray Avila — Tech Enthusiast & IoT Developer">
+  <meta name="twitter:description" content="Computer Technology Graduate specializing in IoT, embedded systems, and front-end development">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+
+  <!-- Modern Icon Libraries -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css">
+
+  <!-- External Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-gradient"></div>
+  <div class="noise-overlay"></div>
+  
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="#" class="brand">
+          <div class="logo">
+            <img src="img/logo.png" alt="Ray Avila Logo" width="48" height="48">
+          </div>
+          <div class="brand-text">
+            <h1>RyuTempest</h1>
+            <p>Tech Enthusiast</p>
+          </div>
+        </a>
+        
+        <nav class="nav-actions">
+          <button class="theme-toggle" id="themeToggle" title="Toggle theme" aria-label="Toggle dark and light theme">
+            <span class="sr-only">Toggle theme</span>
+            <i data-lucide="moon" class="theme-icon dark-icon"></i>
+            <i data-lucide="sun" class="theme-icon light-icon"></i>
+          </button>
+          <a href="#contact" class="btn btn-secondary">
+            <i data-lucide="mail" class="btn-icon"></i>
+            Contact
+          </a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main" id="main-content">
+    <div class="container">
+      <section class="hero loading">
+        <div class="hero-badge">
+          <i data-lucide="sparkles" class="badge-icon"></i>
+          <span>Available for opportunities</span>
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Ray Avila</span>
+        </h1>
+        <div class="hero-subtitle">
+          I build <span class="typed-text" id="typedText">responsive websites</span>
+        </div>
+        <p class="hero-description">
+          Computer Technology Graduate at TUP-Visayas, specializing in IoT systems and embedded development. 
+          I create innovative solutions that bridge hardware and software, from smart agricultural systems 
+          to emergency communication networks.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <i data-lucide="eye" class="btn-icon"></i>
+            View My Work
+          </a>
+          <button class="btn btn-secondary" id="downloadCV">
+            <i data-lucide="download" class="btn-icon"></i>
+            Download CV
+          </button>
+        </div>
+      </section>
+
+      <section class="skills-showcase loading">
+        <div class="skill-category glass-card">
+          <div class="skill-header">
+            <div class="skill-icon">
+              <i data-lucide="code-2" class="skill-icon-svg"></i>
+            </div>
+            <div>
+              <div class="skill-title">Frontend Development</div>
+              <div class="skill-percentage">Intermediate Level</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">React</span>
+            <span class="tag">UI/UX</span>
+            <span class="tag">Responsive Design</span>
+            <span class="tag">Web Performance</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="75"></div>
+          </div>
+          <p class="skill-description">
+            Building responsive websites and web applications with modern HTML, CSS, and JavaScript. Learning and exploring React framework and web development best practices.
+          </p>
+        </div>
+
+        <div class="skill-category glass-card">
+          <div class="skill-header">
+            <div class="skill-icon">
+              <i data-lucide="cpu" class="skill-icon-svg"></i>
+            </div>
+            <div>
+              <div class="skill-title">Embedded Systems</div>
+              <div class="skill-percentage">Intermediate Level</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">ESP32</span>
+            <span class="tag">Arduino</span>
+            <span class="tag">C/C++</span>
+            <span class="tag">IoT</span>
+            <span class="tag">Sensors</span>
+            <span class="tag">Microcontrollers</span>
+            <span class="tag">Hardware Integration</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="75"></div>
+          </div>
+          <p class="skill-description">
+            Hands-on experience with embedded systems development, sensor integration, and IoT device programming.
+          </p>
+        </div>
+
+        <div class="skill-category glass-card">
+          <div class="skill-header">
+            <div class="skill-icon">
+              <i data-lucide="wifi" class="skill-icon-svg"></i>
+            </div>
+            <div>
+              <div class="skill-title">Communication Protocols</div>
+              <div class="skill-percentage">Intermediate Level</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">ESP-NOW</span>
+            <span class="tag">WiFi</span>
+            <span class="tag">Bluetooth</span>
+            <span class="tag">MQTT</span>
+            <span class="tag">HTTP/HTTPS</span>
+            <span class="tag">WebSocket</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="70"></div>
+          </div>
+          <p class="skill-description">
+            Proficient in various communication protocols for IoT applications and real-time data transmission.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="loading">
+        <div class="section-header">
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Showcasing my latest work in IoT and web development</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card glass-card" tabindex="0" 
+                   data-title="Smart Greenhouse Monitoring System"
+                   data-description="An intelligent greenhouse monitoring system using ESP32 microcontrollers with HDC1080 temperature and humidity sensors. Features real-time data logging, automated climate control, and a responsive web interface for remote monitoring and management."
+                   data-tech="ESP32, HDC1080, Web Dashboard, IoT">
+            <div class="project-image float-animation">
+              <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=400&h=200&fit=crop&crop=center" 
+                   alt="Smart Greenhouse System" 
+                   loading="lazy">
+              <div class="project-overlay">
+                <i data-lucide="external-link" class="overlay-icon"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">Smart Greenhouse System</h3>
+                <div class="project-status">
+                  <span class="status-badge completed">Completed</span>
+                </div>
+              </div>
+              <p class="project-description">
+                IoT-enabled greenhouse monitoring with automated climate control and real-time data visualization.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">ESP32</span>
+                <span class="tech-tag">HDC1080</span>
+                <span class="tech-tag">Web Dashboard</span>
+                <span class="tech-tag">IoT</span>
+              </div>
+              <div class="project-links">
+                <span class="project-link">
+                  <i data-lucide="arrow-right" class="link-icon"></i>
+                  View Details
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-card" tabindex="0"
+                   data-title="LiDAR Vehicle Detection & Tracking"
+                   data-description="Advanced vehicle detection system combining ESP32 microcontrollers with LiDAR sensors. Features real-time speed calculation, vehicle classification, and data transmission via ESP-NOW protocol for traffic monitoring applications."
+                   data-tech="LiDAR, ESP32, ESP-NOW, Computer Vision">
+            <div class="project-image float-animation">
+              <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?w=400&h=200&fit=crop&crop=center" 
+                   alt="LiDAR Vehicle Detection" 
+                   loading="lazy">
+              <div class="project-overlay">
+                <i data-lucide="external-link" class="overlay-icon"></i>
+              </div>
+            </div>
+            <div class="project-content">
+                             <div class="project-header">
+                 <h3 class="project-title">LiDAR Vehicle Detection</h3>
+                 <div class="project-status">
+                   <span class="status-badge completed">Completed</span>
+                 </div>
+               </div>
+              <p class="project-description">
+                Intelligent traffic monitoring system using LiDAR sensors for accurate vehicle detection and speed analysis.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">LiDAR</span>
+                <span class="tech-tag">ESP32</span>
+                <span class="tech-tag">ESP-NOW</span>
+                <span class="tech-tag">Analytics</span>
+              </div>
+              <div class="project-links">
+                <span class="project-link">
+                  <i data-lucide="arrow-right" class="link-icon"></i>
+                  View Details
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-card" tabindex="0"
+                   data-title="Academic Request Scheduler"
+                   data-description="A comprehensive web-based scheduling system for academic document requests. Features calendar integration, automated notifications, request tracking, and administrative dashboard for efficient academic workflow management."
+                   data-tech="Web Application, Calendar API, Database, Dashboard">
+            <div class="project-image float-animation">
+              <img src="https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=400&h=200&fit=crop&crop=center" 
+                   alt="Academic Scheduler" 
+                   loading="lazy">
+              <div class="project-overlay">
+                <i data-lucide="external-link" class="overlay-icon"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">Academic Scheduler</h3>
+                <div class="project-status">
+                  <span class="status-badge completed">Completed</span>
+                </div>
+              </div>
+              <p class="project-description">
+                Streamlined scheduling system for academic document requests with calendar integration and tracking.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Web App</span>
+                <span class="tech-tag">Scheduling</span>
+                <span class="tech-tag">Database</span>
+                <span class="tech-tag">Dashboard</span>
+              </div>
+              <div class="project-links">
+                <span class="project-link">
+                  <i data-lucide="arrow-right" class="link-icon"></i>
+                  View Details
+                </span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="loading">
+        <div class="contact-section glass-card">
+          <div class="contact-header">
+            <h2 class="contact-title">Let's Build Something <span class="gradient-text">Amazing</span></h2>
+            <p class="contact-description">
+              Ready to collaborate on your next IoT project or discuss innovative tech solutions? 
+              I'm always excited to work on challenging problems and create meaningful impact.
+            </p>
+          </div>
+          <div class="contact-links">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=avilarayrafael8@gmail.com&su=Portfolio%20Contact&body=Hi%20Ray,%0D%0A%0D%0AI%20saw%20your%20portfolio%20and%20would%20like%20to%20get%20in%20touch.%0D%0A%0D%0ABest%20regards," 
+               class="contact-link" target="_blank" rel="noopener noreferrer">
+              <div class="contact-icon float-animation">
+                <i data-lucide="mail" class="contact-icon-svg"></i>
+              </div>
+              <div class="contact-info">
+                <div class="contact-label">Email</div>
+                <div class="contact-value">avilarayrafael8<br>@gmail.com</div>
+              </div>
+            </a>
+            <a href="https://github.com/RyuTempest" class="contact-link" target="_blank" rel="noopener">
+              <div class="contact-icon float-animation">
+                <i data-lucide="github" class="contact-icon-svg"></i>
+              </div>
+              <div class="contact-info">
+                <div class="contact-label">GitHub</div>
+                <div class="contact-value">@RyuTempest</div>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/ryuukarma1270/" class="contact-link" target="_blank" rel="noopener">
+              <div class="contact-icon float-animation">
+                <i data-lucide="linkedin" class="contact-icon-svg"></i>
+              </div>
+              <div class="contact-info">
+                <div class="contact-label">LinkedIn</div>
+                <div class="contact-value">Ray Avila</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="img/logo.png" alt="Ray Avila Logo" width="32" height="32">
+          </div>
+          <p>© <span id="currentYear"></span> Ray Avila. All rights reserved.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#projects" class="footer-link">Projects</a>
+          <a href="#contact" class="footer-link">Contact</a>
+          <a href="/cv.pdf" class="footer-link" target="_blank">Resume</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Modal -->
+  <div id="projectModal" class="modal" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-content">
+      <button class="close-modal" id="closeModal" aria-label="Close modal">
+        <i data-lucide="x" class="close-icon"></i>
+      </button>
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalTitle">Project Title</h3>
+        <p class="modal-tech" id="modalTech">Technologies</p>
+      </div>
+      <div class="modal-body">
+        <p id="modalDescription">Project description will appear here...</p>
+        <div class="modal-actions">
+          <button class="btn btn-primary" id="modalCloseBtn">
+            <i data-lucide="check" class="btn-icon"></i>
+            Got it
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,6 +1,3 @@
-# ✨ ryutempest.github.io ✨
-
-<div align="center">
 
 ## 👋 Welcome to My Portfolio
 

@@ -1,7 +1,7 @@
 
 ## 👋 Welcome to My Portfolio
 
-Explore my journey as a **Computer Engineering Technology student** and aspiring **Embedded Systems & IoT Developer**.  
+Explore my journey as a **Computer Engineering Technology Graduate** and aspiring **Embedded Systems & IoT Developer**.  
 Here, you'll find a curated showcase of my projects, skills, and experiences in tech and development.  
 
 ---

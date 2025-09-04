@@ -1007,6 +1007,9 @@ p {
     pointer-events: none;
 }
 
+/* Inline style moved from HTML */
+#projects a.project-card-link { text-decoration: none; }
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -1383,6 +1386,27 @@ p {
 .footer-links a:hover {
     color: var(--primary);
 }
+
+/* Footer socials (icons only) */
+.footer-socials {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.footer-socials a {
+    color: var(--light);
+    font-size: 1.4rem;
+    transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.footer-socials a:hover {
+    color: var(--primary);
+    transform: scale(1.2);
+}
+
+.footer-socials a:active { transform: scale(0.95); }
+.footer-socials a:visited { color: var(--light); }
 
 .footer-bottom {
     text-align: center;

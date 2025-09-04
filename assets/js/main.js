@@ -23,6 +23,13 @@ window.addEventListener('load', () => {
             loadingScreen.classList.add('hidden');
         }, 1000);
     }
+
+    // Email unobfuscation
+    const emailSpan = document.getElementById('email-obf');
+    if (emailSpan && emailSpan.dataset.user && emailSpan.dataset.domain) {
+        const email = `${emailSpan.dataset.user}@${emailSpan.dataset.domain}`;
+        emailSpan.textContent = email;
+    }
 });
 
 // Typing Animation

@@ -15,9 +15,6 @@
 
     <!-- Favicons -->
     <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
-    <link rel="icon" href="assets/images/favicon-32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="assets/images/favicon-16.png" sizes="16x16" type="image/png">
-    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
     <meta name="theme-color" content="#0d1117">
 
     <!-- Preconnects / Performance Hints -->
@@ -27,11 +24,24 @@
 
     <link rel="preload" href="assets/css/main.css" as="style">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.min.css">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.min.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    </noscript>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XXXXXXXXXX');
+    </script>
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -369,11 +379,7 @@
 
    <!-- Projects Section -->
 
-<style>
-    #projects a.project-card-link {
-        text-decoration: none;
-    }
-</style>
+
 
 <section id="projects" class="projects">
     <div class="parallax-bg-projects">
@@ -580,7 +586,7 @@
                         </div>
                         <div class="link-content">
                             <h4>Email</h4>
-                            <p>avilarayrafael8@gmail.com</p>
+                            <p><span id="email-obf" data-user="avilarayrafael8" data-domain="gmail.com">[email a0protected]</span></p>
                         </div>
                         <div class="link-arrow">
                             <i class="fas fa-arrow-right"></i>
@@ -636,117 +642,7 @@
         </div>
     </footer>
 
-    <!-- Internal CSS -->
-    <style>
-        .footer {
-            background: #000000;
-            color: #e2e8f0;
-            padding: 3rem 1rem 1.5rem;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
 
-        .footer .container {
-            max-width: 1200px;
-            margin: auto;
-        }
-
-        .footer-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 1.5rem;
-        }
-
-        /* Links */
-        .footer-links {
-            display: flex;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .footer-links a {
-            color: #e2e8f0;
-            text-decoration: none;
-            font-size: 0.95rem;
-            position: relative;
-            transition: color 0.3s ease;
-            padding: 2px 0;
-        }
-
-        /* Animated underline effect */
-        .footer-links a::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: -4px;
-            width: 0%;
-            height: 2px;
-            background: #00B8D4;
-            transition: width 0.3s ease;
-        }
-
-        .footer-links a:hover {
-            color: #00B8D4;
-        }
-
-        .footer-links a:hover::after {
-            width: 100%;
-        }
-
-        /* Active / selected state */
-        .footer-links a:active,
-        .footer-links a:focus {
-            color: #00B8D4;
-            outline: none;
-        }
-
-        .footer-links a:active::after,
-        .footer-links a:focus::after {
-            width: 100%;
-        }
-
-        /* Socials (Icons Only) */
-        .footer-socials {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-        }
-
-        .footer-socials a {
-            color: #e2e8f0;
-            font-size: 1.4rem;
-            transition: transform 0.2s ease, color 0.3s ease;
-        }
-
-        /* Hover: smooth scale + cyan */
-        .footer-socials a:hover {
-            color: #00B8D4;
-            transform: scale(1.2);
-        }
-
-        /* Click: press effect */
-        .footer-socials a:active {
-            transform: scale(0.95);
-        }
-
-        /* Bottom */
-        .footer-bottom {
-            text-align: center;
-            padding-top: 1rem;
-            font-size: 0.85rem;
-            opacity: 0.7;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .footer-content {
-                flex-direction: column;
-                text-align: center;
-            }
-        }
-    </style>
 
     <!-- Font Awesome (for icons) - already loaded above (v6.4.0) -->
 

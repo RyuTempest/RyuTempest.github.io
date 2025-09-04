@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Ray Avila - Portfolio</title>
     <meta name="description" content="Ray Avila — Computer Engineering Technology graduate building embedded systems, IoT, and modern web experiences. Explore projects, skills, and contact details.">
     <meta name="keywords" content="Ray Avila, Portfolio, Computer Engineering Technology, Embedded Systems, IoT, ESP32, Arduino, Web Development, React, JavaScript">
     <meta name="author" content="Ray Avila">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <link rel="canonical" href="https://your-domain.example/">
+    <link rel="canonical" href="https://ryutempest.github.io/">
+    <link rel="alternate" hreflang="en" href="https://ryutempest.github.io/">
+    <link rel="alternate" hreflang="x-default" href="https://ryutempest.github.io/">
 
     <!-- Favicons -->
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
     <link rel="icon" href="assets/images/favicon-32.png" sizes="32x32" type="image/png">
     <link rel="icon" href="assets/images/favicon-16.png" sizes="16x16" type="image/png">
     <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
@@ -22,25 +25,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 
+    <link rel="preload" href="assets/css/main.css" as="style">
     <link rel="stylesheet" href="assets/css/main.css">
     <link
         href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.min.css">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Ray Avila | Portfolio">
+    <meta property="og:title" content="Ray Avila - Embedded Systems & IoT Portfolio">
     <meta property="og:description" content="Embedded Systems, IoT, and Web Development projects by Ray Avila.">
-    <meta property="og:url" content="https://your-domain.example/">
-    <meta property="og:image" content="https://your-domain.example/assets/images/og-cover.jpg">
+    <meta property="og:url" content="https://ryutempest.github.io/">
+    <meta property="og:image" content="https://ryutempest.github.io/assets/images/apple-touch-icon.png">
+    <meta property="og:site_name" content="Ray Avila Portfolio">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ray Avila | Portfolio">
+    <meta name="twitter:title" content="Ray Avila - Embedded Systems & IoT Portfolio">
     <meta name="twitter:description" content="Embedded Systems, IoT, and Web Development projects by Ray Avila.">
-    <meta name="twitter:image" content="https://your-domain.example/assets/images/og-cover.jpg">
+    <meta name="twitter:image" content="https://ryutempest.github.io/assets/images/apple-touch-icon.png">
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -48,7 +53,7 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Ray Avila",
-      "url": "https://your-domain.example/",
+      "url": "https://ryutempest.github.io/",
       "sameAs": [
         "https://github.com/RyuTempest",
         "https://www.linkedin.com/in/ryuukarma1270/"
@@ -56,6 +61,18 @@
       "jobTitle": "Embedded Systems & Front-End Developer",
       "description": "Computer Engineering Technology graduate specializing in Embedded Systems, IoT, and modern web development.",
       "knowsAbout": ["ESP32","Arduino","IoT","React","JavaScript","Python","MySQL"]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://ryutempest.github.io/",
+      "name": "Ray Avila Portfolio",
+      "author": {
+        "@type": "Person",
+        "name": "Ray Avila"
+      }
     }
     </script>
 </head>
@@ -132,7 +149,7 @@
                         <span>Computer Engineering Technology</span>
                     </div>
                     <h1 class="hero-title pop-3d">
-                        <span class="gradient-text">Hello, I'm Ray Avila</span>
+                        <span class="gradient-text">Ray Avila</span>
                     </h1>
                     <div class="typing-container pop-3d">
                         <span class="typing-text" id="typing-text"></span>
@@ -173,7 +190,7 @@
                             </div>
                             <div class="cube-face top">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg"
-                                    alt="Arduino IDE"
+                                    alt="Arduino IDE" loading="lazy" decoding="async"
                                     style="width:40px;height:40px;filter: invert(61%) sepia(94%) saturate(748%) hue-rotate(146deg) brightness(96%) contrast(94%);">
                                 <span>Arduino IDE</span>
                             </div>
@@ -298,51 +315,51 @@
                     <div class="skill-category" data-aos="fade-up">
                         <div class="skills-icons" aria-label="Skills">
                             <!--Frontend & Design -->
-                            <div class="skill-pill" data-skill="React" aria-label="React"><img alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"></div>
-                            <div class="skill-pill" data-skill="Tailwind CSS" aria-label="Tailwind CSS"><img alt="Tailwind CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"></div>
-                            <div class="skill-pill" data-skill="HTML5" aria-label="HTML5"><img alt="HTML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"></div>
-                            <div class="skill-pill" data-skill="CSS3" aria-label="CSS3"><img alt="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"></div>
+                            <div class="skill-pill" data-skill="React" aria-label="React"><img alt="React" loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"></div>
+                            <div class="skill-pill" data-skill="Tailwind CSS" aria-label="Tailwind CSS"><img alt="Tailwind CSS" loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"></div>
+                            <div class="skill-pill" data-skill="HTML5" aria-label="HTML5"><img alt="HTML5" loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"></div>
+                            <div class="skill-pill" data-skill="CSS3" aria-label="CSS3"><img alt="CSS3" loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"></div>
 
 
                             <!-- Backend -->
-                            <div class="skill-pill" data-skill="Node.js" aria-label="Node.js"><img alt="Node.js" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"></div>
-                            <div class="skill-pill" data-skill="MySQL" aria-label="MySQL"><img alt="MySQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"></div>
-                            <div class="skill-pill" data-skill="XAMPP" aria-label="XAMPP"><img alt="XAMPP" src="https://images.icon-icons.com/1381/PNG/512/xampp_94513.png"></div>
+                            <div class="skill-pill" data-skill="Node.js" aria-label="Node.js"><img alt="Node.js" loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"></div>
+                            <div class="skill-pill" data-skill="MySQL" aria-label="MySQL"><img alt="MySQL" loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"></div>
+                            <div class="skill-pill" data-skill="XAMPP" aria-label="XAMPP"><img alt="XAMPP" loading="lazy" decoding="async" src="https://images.icon-icons.com/1381/PNG/512/xampp_94513.png"></div>
 
                             <!-- Programming Languages -->
-                            <div class="skill-pill" data-skill="JavaScript" aria-label="JavaScript"><img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"></div>
-                            <div class="skill-pill" data-skill="TypeScript" aria-label="TypeScript"><img alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"></div>
+                            <div class="skill-pill" data-skill="JavaScript" aria-label="JavaScript"><img alt="JavaScript" loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"></div>
+                            <div class="skill-pill" data-skill="TypeScript" aria-label="TypeScript"><img alt="TypeScript" loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"></div>
 
                             <!-- Tools -->
                               <div class="skill-pill" data-skill="Git" aria-label="Git">
                                 <img alt="Git"
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg">
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" loading="lazy" decoding="async">
                             </div>
                             <div class="skill-pill" data-skill="GitHub" aria-label="GitHub">
                                 <img alt="GitHub"
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg">
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" loading="lazy" decoding="async">
                             </div>
                             <div class="skill-pill" data-skill="VS Code" aria-label="VS Code">
                                 <img alt="VS Code"
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg">
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" loading="lazy" decoding="async">
                             </div>
                             <div class="skill-pill" data-skill="Arduino IDE" aria-label="Arduino IDE">
                                 <img alt="Arduino"
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg">
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" loading="lazy" decoding="async">
                             </div>
                             <div class="skill-pill" data-skill="Adobe Photoshop" aria-label="Adobe Photoshop">
                                 <img alt="Photoshop"
-                                    src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg">
+                                    src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" loading="lazy" decoding="async">
                             </div>
                             <div class="skill-pill" data-skill="Adobe Illustrator" aria-label="Adobe Illustrator">
                                 <img alt="Illustrator"
-                                    src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg">
+                                    src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg" loading="lazy" decoding="async">
                             </div>
 
                             <!-- Hardware / Embedded -->
-                            <div class="skill-pill" data-skill="ESP32 (Espressif)" aria-label="ESP32"><img alt="Espressif" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/espressif.svg"></div>
-                            <div class="skill-pill" data-skill="LoRaWAN" aria-label="LoRaWAN"><img alt="LoRaWAN" src="https://avatars.githubusercontent.com/u/5756403?s=280&v=4"></div>
-                            <div class="skill-pill" data-skill="Figma" aria-label="Figma"><img alt="Figma" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"></div>
+                            <div class="skill-pill" data-skill="ESP32 (Espressif)" aria-label="ESP32"><img alt="Espressif" loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/espressif.svg"></div>
+                            <div class="skill-pill" data-skill="LoRaWAN" aria-label="LoRaWAN"><img alt="LoRaWAN" loading="lazy" decoding="async" src="https://avatars.githubusercontent.com/u/5756403?s=280&v=4"></div>
+                            <div class="skill-pill" data-skill="Figma" aria-label="Figma"><img alt="Figma" loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"></div>
                         </div>
                     </div>
                 </div>
@@ -383,7 +400,7 @@
         <div class="projects-grid">
 
             <!-- Smart Greenhouse -->
-            <a href="https://github.com/yourusername/greenhouse-system" target="_blank" class="project-card-link">
+            <a href="https://github.com/yourusername/greenhouse-system" target="_blank" rel="noopener noreferrer" class="project-card-link">
                 <div class="project-card pop-3d" data-aos="fade-up" data-aos-delay="100" data-project="greenhouse" data-tilt>
                     <div class="project-content">
                         <div class="project-header">
@@ -402,7 +419,7 @@
             </a>
 
             <!-- Vehicle Detection -->
-            <a href="https://github.com/RyuTempest/SAFE-TURN" target="_blank" class="project-card-link">
+            <a href="https://github.com/RyuTempest/SAFE-TURN" target="_blank" rel="noopener noreferrer" class="project-card-link">
                 <div class="project-card pop-3d" data-aos="fade-up" data-aos-delay="200" data-project="vehicle" data-tilt>
                     <div class="project-content">
                         <div class="project-header">
@@ -421,7 +438,7 @@
             </a>
 
             <!-- ACADEMIC-DOCUMENTS-REQUEST-SCHEDULING-SYSTEM -->
-            <a href="https://github.com/RyuTempest/ACADEMIC-DOCUMENTS-REQUEST-SCHEDULING-SYSTEM" target="_blank" class="project-card-link">
+            <a href="https://github.com/RyuTempest/ACADEMIC-DOCUMENTS-REQUEST-SCHEDULING-SYSTEM" target="_blank" rel="noopener noreferrer" class="project-card-link">
                 <div class="project-card pop-3d" data-aos="fade-up" data-aos-delay="300" data-project="portal" data-tilt>
                     <div class="project-content">
                         <div class="project-header">
@@ -441,7 +458,7 @@
             </a>
 
             <!-- OJT Progress Tracker -->
-            <a href="https://github.com/RyuTempest/OJT_TRACKER" target="_blank" class="project-card-link">
+            <a href="https://github.com/RyuTempest/OJT_TRACKER" target="_blank" rel="noopener noreferrer" class="project-card-link">
                 <div class="project-card pop-3d" data-aos="fade-up" data-aos-delay="400" data-project="tracker" data-tilt>
                     <div class="project-content">
                         <div class="project-header">
@@ -459,7 +476,7 @@
             </a>
 
             <!-- RFID Attendance -->
-            <a href="https://github.com/RyuTempest/RFID-Attendance-System" target="_blank" class="project-card-link">
+            <a href="https://github.com/RyuTempest/RFID-Attendance-System" target="_blank" rel="noopener noreferrer" class="project-card-link">
                 <div class="project-card pop-3d" data-aos="fade-up" data-aos-delay="500" data-project="attendance" data-tilt>
                     <div class="project-content">
                         <div class="project-header">
@@ -544,7 +561,7 @@
                 </div>
                 <div class="contact-links" data-aos="fade-left" data-aos-duration="800">
                     <a href="https://www.linkedin.com/in/ryuukarma1270/" class="contact-link linkedin pop-3d"
-                        target="_blank" data-tilt>
+                        target="_blank" rel="noopener noreferrer" data-tilt>
                         <div class="link-icon">
                             <i class="fab fa-linkedin"></i>
                         </div>
@@ -556,7 +573,7 @@
                             <i class="fas fa-arrow-right"></i>
                         </div>
                     </a>
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=avilarayrafael8@gmail.com" target="_blank"
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=avilarayrafael8@gmail.com" target="_blank" rel="noopener noreferrer"
                         class="contact-link email pop-3d" data-tilt>
                         <div class="link-icon">
                             <i class="fas fa-envelope"></i>
@@ -570,7 +587,7 @@
                         </div>
                     </a>
 
-                    <a href="https://github.com/RyuTempest" class="contact-link github pop-3d" target="_blank"
+                    <a href="https://github.com/RyuTempest" class="contact-link github pop-3d" target="_blank" rel="noopener noreferrer"
                         data-tilt>
                         <div class="link-icon">
                             <i class="fab fa-github"></i>
@@ -605,10 +622,10 @@
 
                 <!-- Socials (Icons Only) -->
                 <div class="footer-socials">
-                    <a href="https://github.com/RyuTempest" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/ryuukarma1270/" target="_blank"><i
+                    <a href="https://github.com/RyuTempest" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ryuukarma1270/" target="_blank" rel="noopener noreferrer"><i
                             class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=avilarayrafael8@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=avilarayrafael8@gmail.com" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i></a>
                 </div>
             </div>
 
@@ -731,14 +748,13 @@
         }
     </style>
 
-    <!-- Font Awesome (for icons) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Font Awesome (for icons) - already loaded above (v6.4.0) -->
 
 
 
     <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" defer></script>
+    <script src="assets/js/main.js" type="module" defer></script>
 </body>
 
 </html>

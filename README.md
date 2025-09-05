@@ -41,17 +41,4 @@ The site design emphasizes:
 - Continuously refine portfolio with new projects and achievements.  
 
 ---
-
-## 🤝 Contributing
-This project is personal, but I welcome **feedback and suggestions**.  
-If you’d like to share ideas for improvements (UI/UX, performance, or content), feel free to open an **issue** or submit a **pull request**.  
-
----
-
-## 📬 Contact
-- **Email**: [your-email@example.com]  
-- **LinkedIn**: [Your LinkedIn Profile]  
-- **GitHub**: [@ryutempest](https://github.com/ryutempest)  
-
----
 ✨ _Thank you for visiting my portfolio and blog repository!_

@@ -2,13 +2,6 @@
 
 ---
 
-## 🏆 Profile Highlights
-![GitHub followers](https://img.shields.io/github/followers/ryutempest?style=for-the-badge&logo=github)
-![GitHub stars](https://img.shields.io/github/stars/ryutempest?style=for-the-badge&logo=github)
-![Visitors](https://komarev.com/ghpvc/?username=ryutempest&label=Profile%20Views&color=blue&style=for-the-badge)
-
----
-
 ## 📚 What You'll Find Inside
 - **🖼️ Portfolio** – Showcases my projects, skills, and achievements.  
 - **🛠️ Tech Stack Experiments** – Explorations of tools, frameworks, and design ideas.  

@@ -1,12 +1,13 @@
-# 👋 Welcome to My Portfolio & Blog
+# 👋 Welcome to My Portfolio & Blog  
 
-![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-2ea44f?logo=github&logoColor=white)
-![Tech Stack](https://img.shields.io/badge/Tech%20Stack-HTML%20%7C%20CSS%20%7C%20JS%20%7C%20Markdown-blue?logo=javascript)
-![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-yellow?logo=open-source-initiative)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?size=24&duration=4000&color=2EA44F&center=true&vCenter=true&lines=Welcome+to+my+Portfolio+%26+Blog!;Embedded+Systems+%26+IoT+Developer;Tech+Enthusiast+%7C+Continuous+Learner)
 
-This repository contains the source code for my **personal portfolio and technical blog**.  
-It’s a continuously evolving project that reflects my growth as a **Computer Engineering Technology Graduate** and my journey as an **aspiring Embedded Systems & IoT Developer**.  
+---
+
+## 🏆 Profile Highlights
+![GitHub followers](https://img.shields.io/github/followers/ryutempest?style=for-the-badge&logo=github)
+![GitHub stars](https://img.shields.io/github/stars/ryutempest?style=for-the-badge&logo=github)
+![Visitors](https://komarev.com/ghpvc/?username=ryutempest&label=Profile%20Views&color=blue&style=for-the-badge)
 
 ---
 
@@ -26,35 +27,50 @@ It’s a continuously evolving project that reflects my growth as a **Computer E
 🔗 **Visit my portfolio & blog here:**  
 👉 [ryutempest.github.io](https://ryutempest.github.io)
 
-🚀 **Deployment:** The site is auto-deployed with **GitHub Pages**, ensuring every push is instantly reflected live.  
-
 ---
 
 ## 🎨 UI / UX Highlights
-The portfolio is designed with a focus on **clarity, accessibility, and engagement**:
+✨ The design focuses on **clarity, animations, and smooth navigation**:  
 
-✅ **Clean & Minimal Layout** – Intuitive navigation with minimal distractions.  
-📱 **Responsive Design** – Fully optimized for desktop, tablet, and mobile.  
-🔤 **Readable Typography** – Optimized for both technical blogs and casual reading.  
-♿ **Accessible UI** – Strong color contrast, alt text for images, and keyboard-friendly navigation.  
-⚡ **Smooth Navigation** – Lightweight pages, fast loading, and structured menus.  
-🎭 **Visual Hierarchy** – Consistent color palette, iconography, and section spacing.  
+- ✅ **Clean & Minimal Layout** – Intuitive navigation with minimal distractions  
+- 📱 **Responsive Design** – Optimized for desktop, tablet, and mobile  
+- 🎭 **Smooth Animations** – Hover effects, fade-ins, and scroll reveals  
+- 🔤 **Readable Typography** – Great for tutorials and technical posts  
+- ♿ **Accessible UI** – Alt text, contrast-friendly colors, keyboard nav  
+- ⚡ **Fast Loading** – Lightweight performance-first design  
 
 ---
 
 ## 🧩 User Experience Touchpoints
-- **✨ Interactive elements** – Hover animations, smooth scroll, and active menu states.  
-- **🔍 Easy Discoverability** – Blog posts organized with tags and categories.  
-- **🌗 Theme Customization** – Planned dark/light mode for better readability.  
-- **📂 Showcase Ready** – Projects displayed with context, tech stack, and code links.  
+🎉 What makes the experience fun & engaging?  
+
+- ✨ **Hover animations** & interactive buttons  
+- 🎞️ **GIF previews** of projects & blog tutorials  
+- 🌗 **Dark/Light theme toggle** _(coming soon)_  
+- 🔍 **Search & Tags** for easier blog navigation  
 
 ---
 
 ## 🚀 Future Plans
-- Add **interactive IoT & embedded system demos**.  
-- Build a **blog search & tagging system** for better content discovery.  
-- Implement a **dark/light theme toggle** to match user preference.  
-- Continuously refine portfolio with **new projects & real-world case studies**.  
+- Add **interactive IoT & embedded system demos**  
+- Implement a **dark/light theme toggle**  
+- Build a **blog search & tagging system**  
+- Add **3D animations with Three.js** for project showcases  
+
+---
+
+## 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ryutempest&show_icons=true&theme=radical" alt="GitHub stats" height="180"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ryutempest&theme=radical" alt="GitHub Streak" height="180"/>
+</p>  
+
+---
+
+## 🏆 GitHub Achievements
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ryutempest&theme=onedark&no-frame=true&margin-w=5&row=1" alt="trophies"/>
+</p>
 
 ---
 

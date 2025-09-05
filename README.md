@@ -1,7 +1,5 @@
 # 👋 Welcome to My Portfolio & Blog  
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?size=24&duration=4000&color=2EA44F&center=true&vCenter=true&lines=Welcome+to+my+Portfolio+%26+Blog!;Embedded+Systems+%26+IoT+Developer;Tech+Enthusiast+%7C+Continuous+Learner)
-
 ---
 
 ## 🏆 Profile Highlights

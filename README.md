@@ -5,7 +5,7 @@
 ## 📚 What You'll Find Inside
 - **🖼️ Portfolio** – Showcases my projects, skills, and achievements.  
 - **🛠️ Tech Stack Experiments** – Explorations of tools, frameworks, and design ideas.  
-- **✍️ Blog** – Tutorials, reflections, and deep-dives into embedded systems, IoT, and web tech.  
+  
 
 💡 This space helps me:
 - Document my progress  
